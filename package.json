@@ -1,0 +1,56 @@
+{
+  "name": "material-dashboard-angular2",
+  "version": "1.2.0",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creativetimofficial/material-dashboard-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-dashboard-angular/issues"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/platform-server": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "@angular/upgrade": "~4.1.2",
+    "core-js": "^2.4.1",
+    "foundation-sites": "^6.3.1",
+    "ng2-translate": "^5.0.0",
+    "rxjs": "^5.1.0",
+    "typescript": "^2.2.2",
+    "zone.js": "^0.8.10",
+    "@types/core-js": "0.9.35",
+    "angular-in-memory-web-api": "0.3.2",
+    "ng-chartist": "1.1.0",
+    "angular2-google-maps": "~0.17.0",
+    "chartist": "~0.11.0",
+    "jquery": "~3.2.1",
+    "reflect-metadata": "~0.1.8",
+    "systemjs": "~0.20.12"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.0.3",
+    "@types/chartist": "~0.9.33",
+    "@types/core-js": "~0.9.34",
+    "@types/jquery": "~2.0.34",
+    "@types/node": "7.0.7",
+    "concurrently": "~3.4.0",
+    "lite-server": "~2.3.0",
+    "typescript": "^2.2.2"
+  }
+}
